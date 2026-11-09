@@ -113,11 +113,16 @@ h3 {
 }
 
 .course-card {
-    background: white;
-    border: 1px solid #c3d8ee;
-    border-radius: 12px;
-    padding: 22px;
-    box-shadow: 0 3px 10px #0a2f5c16;
+background: white;
+border: 1px solid #c3d8ee;
+border-radius: 12px;
+padding: 22px;
+box-shadow: 0 3px 10px #0a2f5c16;
+flex-basis: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+min-width: 0;
 }
 
 .course-card i {
