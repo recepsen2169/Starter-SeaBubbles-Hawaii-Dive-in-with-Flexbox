@@ -112,6 +112,12 @@ h3 {
     line-height: 1.2;
 }
 
+.course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .course-card {
 background: white;
 border: 1px solid #c3d8ee;
